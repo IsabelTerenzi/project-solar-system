@@ -5,8 +5,6 @@ import planets from '../data/planets';
 
 class SolarSystem extends React.Component {
   render() {
-    const { planetName, planetImage } = this.props;
-    const { alternativeText } = `Planeta ${planetName}`;
     return (
       <div data-testid="solar-system">
         <Title headline="Planetas" />
@@ -15,7 +13,6 @@ class SolarSystem extends React.Component {
             key={ planet.name }
             planetName={ planet.name }
             planetImage={ planet.image }
-            alternativeText={ alternativeText }
           />
           ))
         }
