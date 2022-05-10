@@ -19,7 +19,7 @@
   border-radius: 20px;
   color: white;
   display: flex;
-  font-family: Courier New, Courier, monospace;
+  font-family: monospace;
   font-size: x-large;
   justify-content: center;
   margin-bottom: 5%;
@@ -29,7 +29,6 @@
 
 div h3 {
   color: white;
-  font-weight: bold;
   text-decoration: underline;
 }
 
@@ -55,7 +54,7 @@ article {
 }
 
 article:hover {
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%) , 0 4px 6px -2px rgb(0 0 0 / 5%);
   transform: translateX(-10px);
   transition: all 0.2s;
 }
@@ -65,8 +64,8 @@ article:hover {
   display: inline-block;
   filter: drop-shadow(8px 8px 8px #686869);
   justify-content: center;
-  margin-left: 2%;
   margin-bottom: 5%;
+  margin-left: 2%;
   padding: 10px;
 }
 
