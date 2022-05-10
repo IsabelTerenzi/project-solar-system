@@ -1,3 +1,84 @@
 .App {
   text-align: center;
 }
+
+.body {
+  background-image: url('../src/images/background.png');
+}
+
+.header {
+  font-size: xx-large;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.title {
+  color: white;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+}
+
+div h3 {
+  font-weight: bold;
+  text-decoration: underline;
+  color: white;
+}
+
+div h4 {
+  color: white;
+}
+
+article {
+  filter: drop-shadow(8px 8px 8px #e9e9ed);
+  margin-left: 6%;
+  display: inline-block;
+  background-color: rgb(16, 15, 15);
+  opacity: 90%;
+  text-align: center;
+  width: 180px;
+  height: 190px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #0e0e0e;
+}
+
+article:hover {
+  transform: translateX(-10px);
+  transition: all 0.2s;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+}
+
+.planets {
+  display: inline-block;
+  padding: 10px;
+  justify-content: center;
+  color: white;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  filter: drop-shadow(8px 8px 8px #686869);
+}
+
+.planets:hover {
+  transform: translateY(10px);
+  transition: all 0.3s;
+}
+
+.planets img {
+  height: 80px;
+}
+
+.planets p {
+  text-align: center;
+}
